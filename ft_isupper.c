@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_isupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/08 16:57:05 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/12 18:51:51 by donghoki         ###   ########.fr       */
+/*   Created: 2021/11/12 18:43:06 by donghoki          #+#    #+#             */
+/*   Updated: 2021/11/12 18:49:51 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int c)
+int	ft_isupper(char c)
 {
-	if (ft_islower(c))
-		return (c - ('a' - 'A'));
+	if ('A' <= c && c <= 'Z')
+		return (1);
 	else
-		return (c);
+		return (0);
 }

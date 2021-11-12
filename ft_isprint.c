@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: donghoki <donghoki@student.42seoul.kr      +#+  +:+       +#+        */
+/*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:56:51 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/08 16:56:52 by donghoki         ###   ########.fr       */
+/*   Updated: 2021/11/09 19:15:23 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int isprint(char c)
 {

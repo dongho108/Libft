@@ -3,11 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: donghoki <donghoki@student.42seoul.kr      +#+  +:+       +#+        */
+/*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:57:11 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/08 16:57:12 by donghoki         ###   ########.fr       */
+/*   Updated: 2021/11/12 18:51:58 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
+int	ft_tolower(int c)
+{
+	if (ft_isupper(c))
+		return (c + ('a' - 'A'));
+	else
+		return (c);
+}

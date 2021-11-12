@@ -6,11 +6,11 @@
 /*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:55:59 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/09 14:13:02 by donghoki         ###   ########.fr       */
+/*   Updated: 2021/11/09 19:10:06 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+#include "libft.h"
 
 int	is_space(char c)
 {

@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: donghoki <donghoki@student.42seoul.kr      +#+  +:+       +#+        */
+/*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:56:42 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/08 16:56:43 by donghoki         ###   ########.fr       */
+/*   Updated: 2021/11/09 19:15:13 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int isascii(char c)
 {

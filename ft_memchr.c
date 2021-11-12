@@ -6,9 +6,11 @@
 /*   By: donghoki <donghoki@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:54:34 by donghoki          #+#    #+#             */
-/*   Updated: 2021/11/09 15:28:50 by donghoki         ###   ########.fr       */
+/*   Updated: 2021/11/09 19:08:48 by donghoki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	*ft_memchr(const void *ptr, int value, size_t n)
 {
@@ -16,7 +18,7 @@ void	*ft_memchr(const void *ptr, int value, size_t n)
     unsigned char   c;
     size_t          i;
 
-    str = ptr;
+    str = (unsigned char *)ptr;
     c = value;
     i = 0;
     while(i < n)
